@@ -1,0 +1,29 @@
+.album-content{
+  display: flex;
+  justify-content: center;
+  margin-left: -30px;
+  margin-top: 30px;
+
+  .album-img{
+    width: 170px;
+    height : auto;
+    margin-left: 20px;
+    transition: transform 0.3s;
+    &:hover{
+      transform: scale(1.1);
+    }
+
+  }
+
+  .album-text{
+    max-width: 150px;
+    margin-left: 20px;
+    font-size: 1.3rem;
+  }
+
+}
+
+.content{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

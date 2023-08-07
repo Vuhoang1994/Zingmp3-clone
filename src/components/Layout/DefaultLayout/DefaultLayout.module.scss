@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: var(--default-layout-width);
+    max-width: 100%;
+    padding: 0 var(--default-layout-horizontal-spacer);
+    display: flex;
+    margin-top: var(--default-layout-header-height);
+    margin-bottom: 120px;
+}
+
+.content {
+    margin-left: 302px;
+    flex: 1;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    //left: 0;
+    max-width: 100%;
+    width: var(--default-layout-width);
+    height: 80px;
+    //background-color: yellow;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

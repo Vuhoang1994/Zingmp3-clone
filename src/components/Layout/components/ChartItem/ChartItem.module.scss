@@ -1,0 +1,57 @@
+.chart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-top: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+
+.index{
+  font-weight: 700;
+  font-size: xxx-large;
+  margin-top: -18px;
+  -webkit-text-stroke: 1px #4a90e2;
+  opacity: 1;
+  color: var(--white);
+  width: 60px;
+}
+
+.song{
+  display: flex;
+}
+
+.info{
+  margin-left: 12px;
+  width: 300px;
+}
+
+.img{
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+}
+
+.name{
+  font-weight: 600;
+  font-size: small;
+}
+
+.singer{
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.album{
+  color: rgba(0, 0, 0, 0.5);
+  //width: 100%;
+  //max-width: 300px;
+  font-size: small;
+}
+
+.duration{
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+
+}

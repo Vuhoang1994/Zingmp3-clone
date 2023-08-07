@@ -1,0 +1,64 @@
+.wrapper{
+  margin-top: 30px;
+}
+
+.content{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img-wrapper{
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+
+  .avatar{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+
+  .random-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    z-index: 1;
+  }
+
+  &:hover .avatar{
+    transform: scale(1.1);
+  }
+
+  &:hover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+  }
+
+  &:hover .random-button{
+    display: block;
+  }
+
+}
+
+.description{
+  margin-left: 30px;
+
+  div{
+    margin-bottom: 10px;
+  }
+}
+
+
